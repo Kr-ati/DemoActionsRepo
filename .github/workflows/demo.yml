@@ -9,6 +9,6 @@ jobs:
       #World: 'Sakshi'
     steps:
       - name: my-step
-        run: echo "Hello $World!"
+        run: echo "Hello $WORLD!"
         #env:
           #World: 'Krati'
