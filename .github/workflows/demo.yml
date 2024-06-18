@@ -9,6 +9,6 @@ jobs:
       #World: 'Sakshi'
     steps:
       - name: my-step
-        run: echo "Hello $WORLD!"
+        run: echo "Hello ${{ vars.WORLD }}!"
         #env:
           #World: 'Krati'
