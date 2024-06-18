@@ -1,14 +1,14 @@
 name: hello-world
 on: push
-env:
-  World: 'Ramya'
+#env:
+  #World: 'Ramya'
 jobs:
   my-job:
     runs-on: ubuntu-latest
-    env:
-      World: 'Sakshi'
+    #env:
+      #World: 'Sakshi'
     steps:
       - name: my-step
         run: echo "Hello $World!"
-        env:
-          World: 'Krati'
+        #env:
+          #World: 'Krati'
