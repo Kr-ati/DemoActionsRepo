@@ -5,10 +5,10 @@ env:
 jobs:
   my-job:
     runs-on: ubuntu-latest
-    #env:
-      #World: 'Sakshi'
+    env:
+      World: 'Sakshi'
     steps:
       - name: my-step
-        run: echo "Hello ${{ vars.WORLD }}!"
+        run: echo "Hello $World!"
         #env:
           #World: 'Krati'
